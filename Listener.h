@@ -41,7 +41,8 @@ ListenerKey initialize(char* dataFile);
 /**
  * Searches key's ArrayList for all entries containing the token. Displays
  * the results on the screen.
- * Pre: key has been initialized without issues with initialize().
+ * Pre: key has been initialized without issues with initialize(). Token is
+ * 		not NULL.
  * Post: Results posted to console.
  */
 void searchDisplay(ListenerKey* key, char* token);
@@ -57,7 +58,8 @@ void displayALL(ListenerKey* key);
 /**
  * Adds input to the end of the key's fileName data file and adds it to
  * the key's ArrayList.
- * Pre: key has been initialized without issues with initialize().
+ * Pre: key has been initialized without issues with initialize(). Input
+ * 		is a proper Address which whose data fields are not NULL.
  * Post: input added to end of client data file and into ArrayList.
  */
 void addToFile(Address* input, ListenerKey* key);
@@ -66,7 +68,7 @@ void addToFile(Address* input, ListenerKey* key);
  * Replaces key's ArrayList index at "index" with input as well as the
  * corresponding index from the client data file. 
  * Pre: key has been initialized without issues with initialize(). Address
- * 		has been initialized without issue with createAddress().
+ * 		is proper with data fields that are not NULL. 
  * Post: ArrayList at index and its corresponding client data file entry 
  * 			replaced with input. Results posted to console.
  */
