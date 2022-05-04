@@ -1,4 +1,4 @@
-*** PUT ON HOLD UNTIL DECEMBER 2021 (WINTER BREAK). TAKING CS3114 DATA STRUCTURES TO IMPROVE PROJECT DESIGN ***
+*** ON HIATUS ***
 
 Project: Restaurant delivary fee lookup
 Description: Reads a .csv file that includes address and fee data. Provides command line lookup functionality
